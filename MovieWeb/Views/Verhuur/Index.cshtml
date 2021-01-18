@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Genre>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Klik op het gewenste GENRE</h1>
+<table class="table table-striped">
+    <tbody>
+        <tr>
+            @foreach (var item in Model)
+            {
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.GenreId">@item.GenreNaam</a>
+                </td>
+
+            }
+
+        </tr>
+    </tbody>
+</table>
+
+

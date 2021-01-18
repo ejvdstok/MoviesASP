@@ -1,0 +1,49 @@
+﻿@model Data.Models.Genre
+    ViewData["Title"] = "FilmGenre";
+}
+
+<h1>@Model.GenreNaam</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                Titel
+            </th>
+            <th>
+                Prijs
+            </th>
+            <th>
+                In Voorraad
+            </th>
+            <th>
+                Huren
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Films)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Titel)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Prijs)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.InVoorraad)
+                </td>
+                <td>
+                    @if (item.InVoorraad != 0)
+                    {
+                        <a asp-action="Huren" asp-route-id="@item.FilmId">Huren</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a class="nav-link" asp-area=""
+   asp-controller="Verhuringen" asp-action="Index">
+    Terug naar genre overzicht
+</a>

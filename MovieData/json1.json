@@ -1,0 +1,5 @@
+{
+    "ConnectionStrings": {
+        "MovieConnection": "server=(localdb)\\mssqllocaldb;Database=MovieASP;Trusted_Connection=True;"
+    }
+}

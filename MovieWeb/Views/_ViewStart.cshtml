@@ -1,0 +1,21 @@
+﻿@{
+    Layout = "_Layout";
+}
+<style type="text/css">
+    .img {
+        width: 50%;
+    }
+</style>
+<img src="~/Images/videoVerhuur.jpg" />
+
+
+@if (ViewBag.klant != null)
+{
+    <p>Welkom, @ViewBag.klant.Voornaam @ViewBag.klant.Naam</p>
+}
+else
+{
+    <p>Eerst aanmelden om te kunnen huren ! </p>
+}
+<a class="nav-link" asp-area=""
+   asp-controller="Home" asp-action="Index">Uitloggen en naar beginpagina</a>

@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model MovieWeb.Models.KlantViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+
+    @using (Html.BeginForm())
+    {
+        <div class="form-group centerlook">
+            <label>Naam: </label>
+            @Html.EditorFor(model => model.Naam)*
+            @Html.ValidationMessageFor(model => model.Naam)
+        </div>
+        <div class="form-group centerlook">
+            <label>Postcode:</label>
+            @Html.EditorFor(model => model.Postcode) *
+            @Html.ValidationMessageFor(model => model.Postcode)
+
+        </div>
+        <div class="loginbtn">
+
+            <input type="submit" value="Login" class="btn btn-primary" />
+
+        </div>
+    }
+</body>
+</html>

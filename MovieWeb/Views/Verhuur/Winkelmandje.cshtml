@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Films>
+@{
+    ViewData["Title"] = "Huren";
+}
+<h1>Winkelmandje</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                Titel
+            </th>
+            <th>
+                Prijs
+            </th>
+            <th>
+                Verwijderen
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Titel)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Prijs)
+                </td>>
+                <td>
+                    <a asp-action="Verwijderen" asp-route-id="@item.FilmId">Verwijderen</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a class="nav-link" asp-area=""
+   asp-controller="Verhuur" asp-action="Index">
+    Verder winkelen
+</a>
