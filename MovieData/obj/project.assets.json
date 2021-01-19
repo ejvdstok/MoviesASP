@@ -5996,25 +5996,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Developer\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\ejvds\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Developer\\source\\repos\\MoviesASP\\MovieData\\MovieData.csproj",
+      "projectUniqueName": "C:\\Users\\ejvds\\source\\repos\\MoviesASP\\MoviesASP\\MovieData\\MovieData.csproj",
       "projectName": "MovieData",
-      "projectPath": "C:\\Users\\Developer\\source\\repos\\MoviesASP\\MovieData\\MovieData.csproj",
-      "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Developer\\source\\repos\\MoviesASP\\MovieData\\obj\\",
+      "projectPath": "C:\\Users\\ejvds\\source\\repos\\MoviesASP\\MoviesASP\\MovieData\\MovieData.csproj",
+      "packagesPath": "C:\\Users\\ejvds\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ejvds\\source\\repos\\MoviesASP\\MoviesASP\\MovieData\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\ejvds\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -6071,7 +6066,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

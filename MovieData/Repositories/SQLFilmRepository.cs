@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Data.Models;
 using MovieData.Models;
 
-namespace Data.Repositories
+namespace MovieData.Repositories
 {
     public class SQLFilmRepository : IFilmRepository
     {

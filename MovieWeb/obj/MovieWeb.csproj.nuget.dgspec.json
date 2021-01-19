@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Developer\\source\\repos\\MoviesASP\\MovieWeb\\MovieWeb.csproj": {}
+    "C:\\Users\\ejvds\\source\\repos\\MoviesASP\\MoviesASP\\MovieWeb\\MovieWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Developer\\source\\repos\\MoviesASP\\MovieData\\MovieData.csproj": {
+    "C:\\Users\\ejvds\\source\\repos\\MoviesASP\\MoviesASP\\MovieData\\MovieData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Developer\\source\\repos\\MoviesASP\\MovieData\\MovieData.csproj",
+        "projectUniqueName": "C:\\Users\\ejvds\\source\\repos\\MoviesASP\\MoviesASP\\MovieData\\MovieData.csproj",
         "projectName": "MovieData",
-        "projectPath": "C:\\Users\\Developer\\source\\repos\\MoviesASP\\MovieData\\MovieData.csproj",
-        "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Developer\\source\\repos\\MoviesASP\\MovieData\\obj\\",
+        "projectPath": "C:\\Users\\ejvds\\source\\repos\\MoviesASP\\MoviesASP\\MovieData\\MovieData.csproj",
+        "packagesPath": "C:\\Users\\ejvds\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ejvds\\source\\repos\\MoviesASP\\MoviesASP\\MovieData\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\ejvds\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -76,26 +72,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Developer\\source\\repos\\MoviesASP\\MovieWeb\\MovieWeb.csproj": {
+    "C:\\Users\\ejvds\\source\\repos\\MoviesASP\\MoviesASP\\MovieWeb\\MovieWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Developer\\source\\repos\\MoviesASP\\MovieWeb\\MovieWeb.csproj",
+        "projectUniqueName": "C:\\Users\\ejvds\\source\\repos\\MoviesASP\\MoviesASP\\MovieWeb\\MovieWeb.csproj",
         "projectName": "MovieWeb",
-        "projectPath": "C:\\Users\\Developer\\source\\repos\\MoviesASP\\MovieWeb\\MovieWeb.csproj",
-        "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Developer\\source\\repos\\MoviesASP\\MovieWeb\\obj\\",
+        "projectPath": "C:\\Users\\ejvds\\source\\repos\\MoviesASP\\MoviesASP\\MovieWeb\\MovieWeb.csproj",
+        "packagesPath": "C:\\Users\\ejvds\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ejvds\\source\\repos\\MoviesASP\\MoviesASP\\MovieWeb\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\ejvds\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -107,8 +99,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Developer\\source\\repos\\MoviesASP\\MovieData\\MovieData.csproj": {
-                "projectPath": "C:\\Users\\Developer\\source\\repos\\MoviesASP\\MovieData\\MovieData.csproj"
+              "C:\\Users\\ejvds\\source\\repos\\MoviesASP\\MoviesASP\\MovieData\\MovieData.csproj": {
+                "projectPath": "C:\\Users\\ejvds\\source\\repos\\MoviesASP\\MoviesASP\\MovieData\\MovieData.csproj"
               }
             }
           }
@@ -145,7 +137,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

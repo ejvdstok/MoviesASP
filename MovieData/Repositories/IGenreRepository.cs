@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Data.Models;
+using MovieData.Models;
 
-namespace Data.Repositories
+namespace MovieData.Repositories
 {
     public interface IGenreRepository
     {

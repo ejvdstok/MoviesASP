@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using MovieData.Models;
 
-namespace Data.Models
+
+namespace MovieData.Models
 {
     public partial class Genre
     {

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Data.Models;
+using MovieData.Models;
 
-namespace Data.Repositories
+namespace MovieData.Repositories
 {
     public class SQLGenreRepository : IGenreRepository
     {
@@ -12,6 +12,11 @@ namespace Data.Repositories
         {
             this.context = context;
         }
+        public Genre Get(int id)
+        {
+            return context.Genres.Find(id);
+        }
+
         public IEnumerable<Genre> GetAll()
         {
             return context.Genres;

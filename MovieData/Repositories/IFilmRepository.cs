@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using MovieData.Models;
 
-namespace Data.Repositories
+namespace MovieData.Repositories
 {
     public interface IFilmRepository
     {

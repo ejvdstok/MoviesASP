@@ -7,10 +7,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using MovieWeb.Models;
-using Data.Models;
+using MovieData.Models;
 using Newtonsoft.Json;
 using MoviesASP.Services;
-using Data.Repositories;
 
 namespace MovieWeb.Controllers
 {

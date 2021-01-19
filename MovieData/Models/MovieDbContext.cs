@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
-using MovieData.Models;
 
-namespace Data.Models
+
+namespace MovieData.Models
 {
     public partial class MovieDbContext : DbContext
     {
@@ -90,7 +90,7 @@ namespace Data.Models
 
                 entity.Property(e => e.StraatNr)
                     .IsRequired()
-                    .HasColumnName("StraatNr")
+                    .HasColumnName("Straat_Nr")
                     .HasMaxLength(50)
                     .IsUnicode(false);
 

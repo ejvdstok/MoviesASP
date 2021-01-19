@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Data.Models;
-using Data.Repositories;
+using MovieData.Models;
+using MovieData.Repositories;
 
 namespace MovieASP.Services
 {
